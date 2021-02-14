@@ -1,0 +1,65 @@
+body {
+    background-color: rgb( 216, 209, 183);
+    font-family: 'Magic School Two';
+}
+@font-face {
+    font-family: 'Magic School Two';
+    src: url('MagicSchoolTwo.ttf');
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 173px 173px 173px 173px 173px 173px 173px 173px;
+    grid-template-rows: 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px 51px;
+}
+.grid-item_1-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 3;
+}
+.grid-item_1-2 {
+    grid-column: 3 / span 6;
+    grid-row: 1 / span 3;
+}
+.grid-item_1-3 {
+    grid-column: 7 / span 8;
+    grid-row: 1 / span 3;
+}
+.grid-item_2-1 {
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 9;
+}
+.grid-item_2-2 {
+    grid-column: 4 / span 6;
+    grid-row: 4 / span 9;
+}
+.grid-item_2-3 {
+    grid-column: 7 / span 8;
+    grid-row: 4 / span 10;
+}
+.grid-item_3-1 {
+    grid-column: 1 / span 2;
+    grid-row: 10 / span 17;
+}
+.grid-item_3-2 {
+    grid-column: 3 / span 4;
+    grid-row: 10 / span 16;
+}
+.grid-item_3-3 {
+    grid-column: 5 / span 6;
+    grid-row: 10 / span 13;
+}
+.grid-item_3-4 {
+    grid-column: 7 / span 8;
+    grid-row: 11 / span 13;
+}
+.grid-item_4 {
+    grid-column: 5 / span 8;
+    grid-row: 14 / span 16;
+}
+.grid-item_5 {
+    grid-column: 3 / span 8;
+    grid-row: 17;
+}
+#python {
+    width: 346px;
+    height: 357px;
+}
